@@ -4,6 +4,11 @@ on:
   push:
     tags:
       - "v*.*.*"
+      tag: 24.10.0
+      pkgarch: mipsel_24kc
+      target: ramips
+      subtarget: mt7621
+      vermagic: 3d0c1636575f45343698be0078bada5c-r1
   workflow_call:
     inputs:
       tag_name:
