@@ -3,8 +3,7 @@ name: Create Release on Tag
 on:
   push:
     tags:
-      - "v*.*.*"
-      tag: 24.10.0
+      - "v24.10.0"
       pkgarch: mipsel_24kc
       target: ramips
       subtarget: mt7621
